@@ -1,0 +1,65 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.btn{
+  color: white;
+}
+.btn-primary{
+  background-color: white;
+  color: black;
+  border: 0;
+}
+.btn-outline-secondary{
+  border: 1px white solid;
+}
+.img-set img{
+  height: 30px;
+  margin-top: 2rem;
+}
+.btn-price-primary{
+  border: 1px solid black;
+  color: black;
+}
+.btn-price-primary:hover{
+  background-color: #212529;
+  border: 1px solid #212529;
+  color: white;
+}
+.btn-secondary{
+  background-color: #212529;
+  color: white;
+}
+.btn-secondary:hover{
+  background-color: rgba(33, 37, 41,0.8);
+}
+.card-header-black{
+  background-color: #212529 !important;
+}
+.border-black{
+  border-color: #212529 !important;
+}
