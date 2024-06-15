@@ -1,14 +1,12 @@
 *{
     margin: 0 auto;
     box-sizing: border-box;
-    
-}
-body{
-    
+    font-family: "Quicksand", sans-serif;
 }
 .main-menu{
     width: 100%;
     height: 100vh;
+    display: flex;
 }
 .box1{
     width: 20%;
@@ -17,22 +15,15 @@ body{
     position: fixed;
     text-align: center;
     color: #0D0D0D;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 5%;
-    float: left;
 }
 .box1 h1{
     font-size: 22px;
-    font-family: "Noto Sans", sans-serif;
     text-transform: uppercase;
     font-weight: normal;
 }
 .box1 p{
     font-size: 12px;
     text-transform: uppercase;
-    font-family: "Noto Sans", sans-serif;
 
 }
 .box1 p span{
@@ -44,12 +35,16 @@ body{
     height: 160px;
     border-radius: 50%;
     margin-top: 5%;
+    margin-bottom: 5%;
     background-color: black;
     background-image: url(../img/perfil_logo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+.menu{
+    height: 50vh;
 }
 .menu ul{
     text-align: center;
@@ -67,7 +62,6 @@ body{
     transition: 0.3s;
     text-transform: uppercase;
     font-size: 16px;
-    font-family: "Oswald", sans-serif;
 }
 .menu a:hover{
     border-bottom: 1px solid #225473;
@@ -75,6 +69,9 @@ body{
 }
 .selected{
     border-bottom: 1px solid #225473 !important;
+}
+.footer{
+    
 }
 .footer p{
     color: black;
@@ -85,7 +82,48 @@ body{
 .container-section{
     width: 80%;
     background-color: white;
+    position: relative;
+    left: 10%;
+    padding-left: 20px;
+    
+}
+.container-content{
     height: 100vh;
-    float: right;
-    clear: both;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.content-box button{
+    width: 160px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid black;
+    line-height: 18px;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+.content-box a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.img-button{
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/phone-call.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.content-box button:hover{
+    transition: 0.2s;
+    background-color: rgb(250, 250, 250);
+}
+
+/* about */
+.about-section{
+    text-align: left;
+    height: 100vh;
+    margin-left: 5%;
 }
