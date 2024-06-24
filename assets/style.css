@@ -167,7 +167,7 @@ html{
 
 .container-projects{
     width: 100%;
-    height: 100vh;
+    height: auto;
     text-align: center;
     margin-top: 5%;
 }
@@ -235,4 +235,45 @@ html{
 .projectBox:hover .hoverContent{
     right: 0;
     transition-timing-function: 1s;
+}
+
+
+/*Knowledge*/
+
+.cnt-knowledge{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.title{
+    margin-top: 5%;
+}
+.title h1{
+    font-weight: normal;
+    letter-spacing: 6px;
+    
+}
+.cnt-knowledge h2{
+    text-align: left;
+    margin-left: 5%;
+}
+.listKnld ul{
+    list-style: none;
+}
+.listKnld li.listChild{
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 5%;
+    width: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: url(../img/arrowicon.png);
+}
+.listKnld li.secChild{
+    list-style-type: circle;
+    font-style: italic;
+    font-weight: normal;
 }
