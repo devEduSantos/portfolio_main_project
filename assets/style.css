@@ -277,3 +277,58 @@ html{
     font-style: italic;
     font-weight: normal;
 }
+
+/* contact */
+.contact{
+    width: 100%;
+}
+.textContact{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.textContact h2{
+    font-weight: normal;
+    margin-top: 8px;
+}
+.contact{
+    text-align: center;
+}
+iframe{
+    width: 80%;
+    height: 80vh;
+    border-radius: 2rem;
+    
+}
+.contact a > button{
+    padding: 0 20px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+    color: black;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+.contact a > button:hover{
+    background-color: #225473;
+    color: white;
+}
+
+@media (max-width:1024px){
+    .about-section{
+        height: auto;
+    }
+}
+@media (max-width:768px){
+    .box1{
+        display: none;
+    }
+    .w100{
+        width: 100% !important;
+        position: static !important;
+        margin-left: 0 !important;
+    }
+}
